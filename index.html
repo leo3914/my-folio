@@ -2,59 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyNo0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Document</title>
 </head>
 
 <body style="background-color: rgb(35, 17, 55)">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand text-white-50" href="#"><span style="color: rgb(52, 129, 222);">My-F</span>olio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav px-2">
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        <div class="row my-5">
-            <div class="col-2"></div>
-            <div class="col-4">
-                <img src="./profile.jpg" alt="" width="250px" style="border-radius: 50px;">
-            </div>
-            <div class="col-4 py-5 mx-auto">
-                <h1 class="text-white">Pyae <span class="fs-1 fw-bold text-primary">Phyo Kywel</span></h1>
-                <h3 class="text-white-50">Web Developer</h3>
-                <a href="#" class="btn btn-outline-primary rounded-pill me-1" download>Download CV</a>
-                <a href="#" class="btn btn-outline-primary rounded-pill">About Me</a>
-            </div>
-            <div class="col-2"></div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white-50" href="#"><span style="color: rgb(52, 129, 222);">My-F</span>olio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars" style="color: #979eaa;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav px-2">
+            <li class="nav-item">
+              <a class="nav-link text-white-50" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <div class="row my-5">
+      <div class="col-md-2"></div>
+
+      <div class="col-md-4 mt-4">
+        <img src="./profile.jpg" alt="" width="200px" style="border-radius: 30px;">
+      </div>
+
+      <div class="col-md-4 py-5 mx-auto mt-5">
+        <h1 class="text-white">Pyae <span class="fs-1 fw-bold text-primary h1">Phyo Kywel</span></h1>
+        <h3 class="text-white-50">Web Developer</h3>
+        <a href="#" class="btn btn-outline-primary rounded-pill me-1" download>Download CV</a>
+        <a href="#" class="btn btn-outline-primary rounded-pill">About Me</a>
+      </div>
+
+      <div class="col-md-2"></div>
     </div>
 
-    
+  </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
 </body>
 
 </html>
