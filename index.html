@@ -20,7 +20,7 @@
 
 <body style="background-color: rgb(35, 17, 55)" class="hero">
   <div class="container">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg container">
       <div class="container-fluid">
         <a class="navbar-brand text-white-50" href="#"><span style="color: rgb(52, 129, 222);">My-F</span>olio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav px-2">
             <li class="nav-item">
-              <a class="nav-link text-white-50" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white-50" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white-50" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white-50" href="#">Skills</a>
+              <a class="nav-link text-white-50" href="#Skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white-50">Contact</a>
@@ -95,7 +95,7 @@
     <div class="row my-md-3 my-sm-0">
       <div class="p-5">
         <h1 class="text-center text-white-50" id="about">About</h1>
-        <p class="about text-white-50 p-md-5 p-sm-0" id="textContainer">
+        <p class="about text-white-50 text-center p-md-5 p-sm-0" id="textContainer">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello,I'm <i>Pyae Phyo Kywel.</i>Lorem ipsum dolor sit amet consectetur,
           adipisicing elit. Commodi dolor recusandae reprehenderit voluptatibus adipisci cupiditate, quos ipsa obcaecati
           placeat reiciendis animi soluta iure maiores labore molestias nam, vel ea quo. Lorem ipsum dolor, sit amet
@@ -109,30 +109,53 @@
     <div class="row mt-5"></div>
 
     <div class="row my-md-5 my-sm-0">
-      <h1 class="text-center text-white-50 mb-5">Skills</h1>
+      <h1 class="text-center text-white-50 mb-5" id="Skills">Skills</h1>
       <div class="col-md-3"></div>
       <div class="col-md-6 border border-1  border-dark-subtle rounded-1 text-white-50">
           <div class="row">
             <div class="col-md-6 p-5">
                 <h3>Front-End Development</h3>
-                <h6 class="">&nbsp;<i class="fa-brands fa-html5"></i>&nbsp;&nbsp;&nbsp;HTML5</>
+                <h6 class="">&nbsp;<i class="fa-brands fa-html5"></i>&nbsp;&nbsp;&nbsp;HTML5</h6>
                 <h6 class=""><i class="fa-brands fa-css3"></i>&nbsp;&nbsp;&nbsp;Css</h6>
                 <h6 class=""><i class="fa-brands fa-bootstrap"></i>&nbsp;&nbsp;Bootstrap</h6>
-                <h6 class=""><i class="fa-brands fa-bootstrap"></i>&nbsp;&nbsp;TailwindCss</h6>
-                <h6 class="">&nbsp;<i class="fa-brands fa-js"></i>&nbsp;&nbsp;&nbsp;JavaScript</h6>
-                <h6 class="">&nbsp;<i class="fa-brands fa-fab"></i>&nbsp;&nbsp;JQuery</h6>
+                <h6 class=""><i class="fa-brands fa-css3"></i>&nbsp;&nbsp;TailwindCss</h6>
+                <h6 class=""><i class="fa-brands fa-js"></i>&nbsp;&nbsp;&nbsp;JavaScript</h6>
+                <h6 class=""><i class="fa-brands fa-js-square"></i>&nbsp;&nbsp;&nbsp;JQuery</h6>
                 <h6 class=""><i class="fa-brands fa-react"></i>&nbsp;&nbsp;&nbsp;React <i>(Learning...)</i></h6>
             </div>
-          <div class="col-md-6 p-5">
-                <h3>Back-End Development</h3>
-                <h6 class=""><i class="fa-brands fa-php"></i>&nbsp;&nbsp;PHP</>
-                <h6 class=""><i class="fa-brands fa-laravel"></i>&nbsp;&nbsp;&nbsp;Laravel</h6>
-                <h6 class=""><i class="fa-solid fa-database"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;MySQL Database</h6>
-                  
-          </div>
+            <div class="col-md-6 p-5">
+                  <h3>Back-End Development</h3>
+                  <h6 class=""><i class="fa-brands fa-php"></i>&nbsp;&nbsp;PHP</>
+                  <h6 class=""><i class="fa-brands fa-laravel"></i>&nbsp;&nbsp;&nbsp;Laravel</h6>
+                  <h6 class=""><i class="fa-solid fa-database"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;MySQL Database</h6>
+            </div>
+            <div class="col-md-12 p-5">
+              <h3 class="text-center">Soft Skills</h3>
+              <p  class="text-center">Responsive Design, Teamwork, Problem-Solving, Creativity and Knowledge in Ui/Ux Design</p>
+            </div>
           </div>
       </div>
       <div class="col-md-3"></div>
+    </div>
+
+    <div class="row mt-5"></div>
+    <div class="row mt-5"></div>
+    <div class="row mt-5"></div>
+
+    <div class="row my-md-3 my-sm-3">
+      <div class="row">
+        <h1 class="text-center text-white-50">Contact</h1>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+        <div class="col-md-2"></div>
+        <a href="" class="h5"><span><i class="fa-solid fa-phone-volume"></i> Email</span></a>
+          <a href=""><h5><i class="fa-solid fa-phone-volume"></i> Phone</h5></a>
+          <a href=""><h5><i class="fa-solid fa-phone-volume"></i> Facebook</h5></a>
+          <a href=""><h5><i class="fa-solid fa-phone-volume"></i> GitHub</h5></a>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
+      </div>
     </div>
 
   </div>
@@ -197,25 +220,9 @@
   <script src="https://unpkg.com/typeit@@{TYPEIT_VERSION}/dist/index.umd.js"></script>
   <script>
     new TypeIt("#textContainer", {
-      speed: 100,
+      speed: 80,
       waitUntilVisible: true,
-    })
-      // .type("PEYO", { delay: 300 })
-      // .move(-2)
-      // .delete(1)
-      // .type("h")
-      // .move(null, { to: "END" })
-      // .type(" let yees")
-      .pause(300)
-      // .delete(2)
-      // .type("sterday use up to muc")
-      // .move(-4)
-      // .type("o")
-      // .move(null, { to: "END" })
-      // .type("h of today.")
-      .pause(500)
-      .break({ delay: 500 })
-      .break({ delay: 500 }).go();
+    }).go();
 
   </script>
 </body>
