@@ -8,8 +8,12 @@
     font-family: 'Mohave', sans-serif;
 }
 
-.skill{
+.skill,.contact{
   font-family: 'Mohave', sans-serif;
+}
+
+.list-group-item {
+  background-color: transparent;
 }
 
 .cube {
